@@ -1,6 +1,8 @@
 Pizza Pixels 
 =====================
 
+[Heroku Intance: pizza-pixels.herokuapp.com](http://pizza-pixels.herokuapp.com/)
+
 Created by designer / hacker Tucker Spofford using [Framer.js](http://framerjs.com/). This is a simple utility that lets you create pixel art - originally designed to create graphics for our hackathon project [PizzaTime](https://github.com/artefact-group/PizzaTime). 
 
 ###Setup
