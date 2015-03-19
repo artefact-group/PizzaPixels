@@ -1,10 +1,7 @@
 var express = require('express'),
-app         = express(),
-http        = require('http');
+app         = express();
+process.env.PWD = process.cwd();
 
+app.use(express.static(process.env.PWD + "/pixelator_v1.framer/"));
 
-app.use(express.static(__dirname + "/pixelator_v1.framer/"));
-
-app.get('/', function(req, res) {});
-
-http.createServer(app).listen(3000);
+app.listen(process.env.PORT || 3000);
